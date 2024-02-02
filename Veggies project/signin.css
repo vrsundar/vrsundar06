@@ -1,0 +1,71 @@
+
+  body{
+    background-image: url(img/main.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 7px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    background-color: black;
+  }
+  
+   /* Add padding to containers */
+  .container {
+    left: 20%;
+    padding: 16px;
+    width: 50%;
+    justify-content: center;
+     position: relative;
+    height: 100px;
+  }
+  
+ 
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    
+  }
+  h2{
+    position:relative;
+    top: -200px;
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  
+    
+  }
+  @keyframes heading{
+    0%{
+      top: -200px;
+    }
+    100%{
+      top: 0px;
+    }
+  }
